@@ -1,0 +1,21 @@
+function getLideres() {
+	var ultAlien = [6, 6, 6, 6, 6, 6]; // Qual alien esta na posição mais baixa em cada Coluna
+	var lideres = [];
+	var i = 0;
+	while(i < 6) {
+		if(existe(jogoAliens[ultAlien[i]][i])) {
+			lideres[i] = jogoAliens[ultAlien[i]][i];
+			i++;
+		}
+		else {
+			if(ultAlien[i]>0) {
+				ultAlien[i]--;
+			}
+			else {
+				lideres[i] = null;
+				i++;
+			}
+		}
+	}
+	return lideres;
+}

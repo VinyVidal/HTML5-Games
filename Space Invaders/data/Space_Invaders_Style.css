@@ -1,0 +1,65 @@
+* {
+	overflow: hidden;
+}
+
+body {
+	background-color: #222;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+
+/* canvas {
+	width: 100%;
+	max-height: 601;
+} */ 
+
+#content {
+	width: 100%;
+	padding-top: 75%; /* 1:1 Aspect Ratio */
+	position: relative; /* If you want text inside of it */
+}
+
+canvas {
+	width: 100%;
+	display: block;
+	max-width: 100%;
+	margin: auto;
+}
+
+
+.bt {
+	display:block;
+	margin-top: 1rem;
+	margin-left: 10em;
+    text-align: center;
+	border-radius: 2vw;
+	font-size: 2.7vw;
+	padding: 0.6vw 1.9vw;
+	color: #FFD700;
+	background-color: #000;
+	border: 0.1vw solid #FFD700;
+}
+
+.bt:hover {
+
+	border: 1px solid #FFD700;
+	color: #FFD700;
+	background-color: #4F4F4F;
+}
+
+.bt:active {
+	
+	color: #4F4F4F;
+	background-color: #CDAD00;
+	border: 1px solid #000;
+}
