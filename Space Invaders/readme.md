@@ -1,4 +1,6 @@
- ****** SPACE INVADERS ******
+![alt text](https://raw.githubusercontent.com/VinyVidal/HTML5-Games/master/Space%20Invaders/screenshot.jpg)
+
+****** SPACE INVADERS ******
  
  Meu segundo jogo criado com HTML5 e o mais completo até o momento.
  'Reprodução' do clássico do Atari 2600 Space Invaders. Meu jogo é muito semelhante ao original, porém com adição de controles para dispositivos móveis (botões com suporte para touchscreen).
