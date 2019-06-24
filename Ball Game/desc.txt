@@ -1,0 +1,7 @@
+Jogo simples em que o objetivo é levar a bola para o topo da tela, enquanto evita os retângulos em movimento.
+
+Controles no teclado:
+Setas direcionais - movimento da bola
+
+Controles em dispositivos móveis:
+Arraste na direção desejada para mover a bola
